@@ -1,0 +1,5 @@
+<button type="button" class="btn" (click)='onBtnClick();'>Display Details</button>
+<p *ngIf="showParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+<div>
+  <app-item *ngFor="let item of itemsArray" [item]="item"></app-item>
+</div>
